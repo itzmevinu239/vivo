@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+
+}
+
+.navbar-nav a {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-style: bold;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.aa{
+    position: relative;
+}
+.nav-link {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    justify-content: center;
+}
+.img2{
+   justify-content: center;
+   width: 100%;
+   height: auto;
+}
+
+.last{
+    background-color: rgb(216, 216, 216);
+}
+.one{
+    background-color: rgb(214, 214, 214);
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    color: white;
+    
+}
+.sec1{
+    border-radius: 20px;
+    align-content: center;
+    color: black;
+    
+
+}
+.secmain{
+    border-radius: 20px;
+
+}
+.image1{
+    border-radius: 20px;
+}
+.text-reset{
+    text-decoration: none;
+}
+.contact{
+    padding-left: 7em;
+}
+.social-media{
+    font-size: 2em;
+    padding-left: 5px;
+}
+.policies{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: small;
+}
+.img-1{
+    transition: transform 1s;
+    
+}
+.img-1:hover{
+    transform: scale(1.1)
+
+}
+
+
+/* ___________________________________________________________ */
+                       /* toTop button */
+/* ___________________________________________________________ */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+    background-color: rgba(87,92,102,.4);
+    color: white;
+    
+  }
